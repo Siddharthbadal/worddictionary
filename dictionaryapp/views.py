@@ -25,7 +25,7 @@ def getRandomword():
 def wordoftheday():
     current_word =WordoftheDay.objects.last()
     if current_word != None:
-        deadline=current_word.timestamp+timedelta(24)
+        deadline=current_word.timestamp+timedelta(hours=24)
 
         if deadline > timezone.now():
             word = current_word.word
