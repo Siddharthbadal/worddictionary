@@ -13,7 +13,7 @@ def getRandomword():
     querystring = {"random":"true"}
 
     headers = {
-        'x-rapidapi-key': "43a36074a4mshc32fb43f3febbbfp15bf05jsnf08fe0672f3a",
+        'x-rapidapi-key': "**********************",
         'x-rapidapi-host': "wordsapiv1.p.rapidapi.com"
         }
 
